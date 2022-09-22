@@ -1,0 +1,568 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.disit.org/altair/resource/a1ul12>
+        a       <http://www.disit.org/saref4bldg-ext/PhysicalObject> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/to>
+                <http://www.disit.org/altair/resource/a1ul13> , <http://www.disit.org/altair/resource/a1ul14> , <http://www.disit.org/altair/resource/rampa2> .
+
+<http://www.disit.org/altair/resource/m3-h>
+        a       <http://www.disit.org/saref4bldg-ext/UnitOfMeasure> , owl:NamedIndividual .
+
+<http://www.disit.org/altair/resource/ferricostart>
+        a       <http://www.disit.org/saref4bldg-ext/PhysicalObject> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/to>
+                <http://www.disit.org/altair/resource/s-904e> , <http://www.disit.org/altair/resource/s-904d> .
+
+<http://www.disit.org/altair/resource/percentage>
+        a       <http://www.disit.org/saref4bldg-ext/UnitOfMeasure> , owl:NamedIndividual .
+
+<http://www.disit.org/altair/resource/p904b>
+        a       <http://www.disit.org/saref4bldg-ext/Pump> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/to>
+                <http://www.disit.org/altair/resource/a1ul12> .
+
+<http://www.disit.org/altair/resource/Flusso_470>
+        a       <http://www.disit.org/saref4bldg-ext/Flow> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/endIn>
+                <http://www.disit.org/altair/resource/a1ul5> ;
+        <http://www.disit.org/saref4bldg-ext/startIn>
+                <http://www.disit.org/altair/resource/s-954b> .
+
+<http://www.disit.org/altair/resource/Flusso_483>
+        a       <http://www.disit.org/saref4bldg-ext/Flow> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/endIn>
+                <http://www.disit.org/altair/resource/a1ul4> ;
+        <http://www.disit.org/saref4bldg-ext/startIn>
+                <http://www.disit.org/altair/resource/a1ul7> .
+
+<http://www.disit.org/saref4bldg-ext/Area>
+        a                owl:Class ;
+        rdfs:comment     "A Site can be divided in areas." ;
+        rdfs:label       "Area" ;
+        rdfs:subClassOf  <https://saref.etsi.org/saref4bldg/BuildingSpace> .
+
+<http://www.disit.org/altair/resource/Flusso_455>
+        a       <http://www.disit.org/saref4bldg-ext/Flow> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/endIn>
+                <http://www.disit.org/altair/resource/a1ul1> ;
+        <http://www.disit.org/saref4bldg-ext/startIn>
+                <http://www.disit.org/altair/resource/a1ul3> .
+
+<http://www.disit.org/altair/resource/s-904e>
+        a       <http://www.disit.org/saref4bldg-ext/Tank> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/to>
+                <http://www.disit.org/altair/resource/a1ul9> , <http://www.disit.org/altair/resource/a1ul10> .
+
+<http://www.disit.org/altair/resource/Flusso_468>
+        a       <http://www.disit.org/saref4bldg-ext/Flow> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/endIn>
+                <http://www.disit.org/altair/resource/s-954a> ;
+        <http://www.disit.org/saref4bldg-ext/startIn>
+                <http://www.disit.org/altair/resource/ferrosostart> .
+
+<http://www.disit.org/saref4bldg-ext/to_cloruro_cerrico>
+        a       owl:ObjectProperty .
+
+<http://www.disit.org/altair/resource/a1ul9>
+        a       <http://www.disit.org/saref4bldg-ext/PhysicalObject> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/to>
+                <http://www.disit.org/altair/resource/a1ul11> .
+
+<http://www.disit.org/altair/resource/ferrosostart>
+        a       <http://www.disit.org/saref4bldg-ext/PhysicalObject> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/to>
+                <http://www.disit.org/altair/resource/s-954a> , <http://www.disit.org/altair/resource/s-954b> .
+
+<http://www.disit.org/saref4bldg-ext/endIn>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "The Physical Object into which the Flow end." ;
+        rdfs:label    "endIn" .
+
+<http://www.disit.org/altair/resource/Flusso_462>
+        a       <http://www.disit.org/saref4bldg-ext/Flow> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/endIn>
+                <http://www.disit.org/altair/resource/s-904e> ;
+        <http://www.disit.org/saref4bldg-ext/startIn>
+                <http://www.disit.org/altair/resource/ferricostart> .
+
+<http://www.disit.org/saref4bldg-ext/Site>
+        a                owl:Class ;
+        rdfs:comment     "A Building can be divided in sites." ;
+        rdfs:label       "Site" ;
+        rdfs:subClassOf  <https://saref.etsi.org/saref4bldg/BuildingSpace> .
+
+<http://www.disit.org/altair/resource/Flusso_475>
+        a       <http://www.disit.org/saref4bldg-ext/Flow> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/endIn>
+                <http://www.disit.org/altair/resource/a1ul9> ;
+        <http://www.disit.org/saref4bldg-ext/startIn>
+                <http://www.disit.org/altair/resource/s-904e> .
+
+<http://www.disit.org/saref4bldg-ext/ProductionLine>
+        a                owl:Class ;
+        rdfs:comment     "A Production Line of an industry." ;
+        rdfs:label       "ProductionLine" ;
+        rdfs:subClassOf  [ a                  owl:Restriction ;
+                           owl:allValuesFrom  <https://saref.etsi.org/saref4bldg/PhysicalObject> ;
+                           owl:onProperty     <https://saref.etsi.org/saref4bldg/contains>
+                         ] .
+
+<http://www.disit.org/altair/resource/li954a>
+        a       <http://www.disit.org/saref4bldg-ext/Sensor> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/canMeasureIn>
+                <http://www.disit.org/altair/resource/percentage> ;
+        <http://www.disit.org/saref4bldg-ext/isContainedIn>
+                <http://www.disit.org/altair/resource/s-954a> .
+
+<http://www.disit.org/altair/resource/a1ul3>
+        a       <http://www.disit.org/saref4bldg-ext/PhysicalObject> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/to>
+                <http://www.disit.org/altair/resource/a1ul2> , <http://www.disit.org/altair/resource/a1ul1> , <http://www.disit.org/altair/resource/rampa1> .
+
+<http://www.disit.org/altair/resource/a1ul11>
+        a       <http://www.disit.org/saref4bldg-ext/PhysicalObject> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/to>
+                <http://www.disit.org/altair/resource/p904b> .
+
+<http://www.disit.org/altair/resource/Flusso_482>
+        a       <http://www.disit.org/saref4bldg-ext/Flow> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/endIn>
+                <http://www.disit.org/altair/resource/a1ul4> ;
+        <http://www.disit.org/saref4bldg-ext/startIn>
+                <http://www.disit.org/altair/resource/a1ul6> .
+
+<http://www.disit.org/altair/resource/Flusso_454>
+        a       <http://www.disit.org/saref4bldg-ext/Flow> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/endIn>
+                <http://www.disit.org/altair/resource/a1ul14> ;
+        <http://www.disit.org/saref4bldg-ext/startIn>
+                <http://www.disit.org/altair/resource/a1ul12> .
+
+<http://www.disit.org/altair/resource/s-904d>
+        a       <http://www.disit.org/saref4bldg-ext/Tank> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/to>
+                <http://www.disit.org/altair/resource/a1ul8> .
+
+<http://www.disit.org/altair/resource/Flusso_467>
+        a       <http://www.disit.org/saref4bldg-ext/Flow> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/endIn>
+                <http://www.disit.org/altair/resource/s-954b> ;
+        <http://www.disit.org/saref4bldg-ext/startIn>
+                <http://www.disit.org/altair/resource/a1ul6> .
+
+<http://www.disit.org/saref4bldg-ext/Container>
+        a                owl:Class ;
+        rdfs:label       "Container" ;
+        rdfs:subClassOf  <https://saref.etsi.org/saref4bldg/PhysicalObject> .
+
+<http://www.disit.org/altair/resource/a1ul8>
+        a       <http://www.disit.org/saref4bldg-ext/PhysicalObject> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/to>
+                <http://www.disit.org/altair/resource/a1ul11> , <http://www.disit.org/altair/resource/a1ul9> .
+
+<http://www.disit.org/saref4bldg-ext/startIn>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "The Physical Object from which the Flow start." ;
+        rdfs:label    "startIn" .
+
+<http://www.disit.org/saref4bldg-ext/Pump>
+        a                owl:Class ;
+        rdfs:label       "Pump" ;
+        rdfs:subClassOf  <https://saref.etsi.org/saref4bldg/PhysicalObject> .
+
+<http://www.disit.org/saref4bldg-ext/Valve>
+        a                owl:Class ;
+        rdfs:label       "Valve" ;
+        rdfs:subClassOf  <https://saref.etsi.org/saref4bldg/Valve> .
+
+<http://www.disit.org/saref4bldg-ext/isContainedIn>
+        a           owl:ObjectProperty ;
+        rdfs:label  "isContainedIn" .
+
+<http://www.disit.org/altair/resource/Flusso_461>
+        a       <http://www.disit.org/saref4bldg-ext/Flow> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/endIn>
+                <http://www.disit.org/altair/resource/a1ul12> ;
+        <http://www.disit.org/saref4bldg-ext/startIn>
+                <http://www.disit.org/altair/resource/p904b> .
+
+<http://www.disit.org/saref4bldg-ext/Flow>
+        a                owl:Class ;
+        rdfs:comment     "A generic Flow from and to a Physical Object, usually achived with pipes." ;
+        rdfs:label       "Flow" ;
+        rdfs:subClassOf  [ a                            owl:Restriction ;
+                           owl:minQualifiedCardinality  "1"^^xsd:nonNegativeInteger ;
+                           owl:onClass                  <https://saref.etsi.org/saref4bldg/PhysicalObject> ;
+                           owl:onProperty               <http://www.disit.org/saref4bldg-ext/startIn>
+                         ] ;
+        rdfs:subClassOf  [ a                            owl:Restriction ;
+                           owl:minQualifiedCardinality  "1"^^xsd:nonNegativeInteger ;
+                           owl:onClass                  <https://saref.etsi.org/saref4bldg/PhysicalObject> ;
+                           owl:onProperty               <http://www.disit.org/saref4bldg-ext/endIn>
+                         ] ;
+        rdfs:subClassOf  [ a                  owl:Restriction ;
+                           owl:allValuesFrom  <https://saref.etsi.org/saref4bldg/PhysicalObject> ;
+                           owl:onProperty     <http://www.disit.org/saref4bldg-ext/startIn>
+                         ] ;
+        rdfs:subClassOf  [ a                  owl:Restriction ;
+                           owl:allValuesFrom  <https://saref.etsi.org/saref4bldg/PhysicalObject> ;
+                           owl:onProperty     <http://www.disit.org/saref4bldg-ext/endIn>
+                         ] .
+
+<http://www.disit.org/altair/resource/Flusso_474>
+        a       <http://www.disit.org/saref4bldg-ext/Flow> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/endIn>
+                <http://www.disit.org/altair/resource/a1ul10> ;
+        <http://www.disit.org/saref4bldg-ext/startIn>
+                <http://www.disit.org/altair/resource/s-904e> .
+
+<http://www.disit.org/altair/resource/a1ul2>
+        a       <http://www.disit.org/saref4bldg-ext/PhysicalObject> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/to>
+                <http://www.disit.org/altair/resource/s-954b> .
+
+<http://www.disit.org/altair/resource/Flusso_459>
+        a       <http://www.disit.org/saref4bldg-ext/Flow> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/endIn>
+                <http://www.disit.org/altair/resource/a1ul13> ;
+        <http://www.disit.org/saref4bldg-ext/startIn>
+                <http://www.disit.org/altair/resource/a1ul12> .
+
+<http://www.disit.org/altair/resource/a1ul10>
+        a       <http://www.disit.org/saref4bldg-ext/PhysicalObject> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/to>
+                <http://www.disit.org/altair/resource/a1ul11> .
+
+<https://saref.etsi.org/saref4bldg/PhysicalObject>
+        a       owl:Class .
+
+<http://www.disit.org/saref4bldg-ext/>
+        a       owl:Ontology .
+
+<http://www.disit.org/altair/resource/Flusso_481>
+        a       <http://www.disit.org/saref4bldg-ext/Flow> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/endIn>
+                <http://www.disit.org/altair/resource/a1ul7> ;
+        <http://www.disit.org/saref4bldg-ext/startIn>
+                <http://www.disit.org/altair/resource/s-954a> .
+
+<http://www.disit.org/altair/resource/Flusso_453>
+        a       <http://www.disit.org/saref4bldg-ext/Flow> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/endIn>
+                <http://www.disit.org/altair/resource/rampa2> ;
+        <http://www.disit.org/saref4bldg-ext/startIn>
+                <http://www.disit.org/altair/resource/a1ul12> .
+
+<http://www.disit.org/altair/resource/s-954b>
+        a       <http://www.disit.org/saref4bldg-ext/Tank> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/to>
+                <http://www.disit.org/altair/resource/a1ul6> , <http://www.disit.org/altair/resource/a1ul5> .
+
+<http://www.disit.org/altair/resource/Flusso_466>
+        a       <http://www.disit.org/saref4bldg-ext/Flow> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/endIn>
+                <http://www.disit.org/altair/resource/s-954b> ;
+        <http://www.disit.org/saref4bldg-ext/startIn>
+                <http://www.disit.org/altair/resource/a1ul5> .
+
+<http://www.disit.org/saref4bldg-ext/to_cloro>
+        a       owl:ObjectProperty .
+
+<http://www.disit.org/saref4bldg-ext/Sensor>
+        a           owl:Class ;
+        rdfs:label  "Sensor" .
+
+<http://www.disit.org/altair/resource/Flusso_479>
+        a       <http://www.disit.org/saref4bldg-ext/Flow> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/endIn>
+                <http://www.disit.org/altair/resource/a1ul11> ;
+        <http://www.disit.org/saref4bldg-ext/startIn>
+                <http://www.disit.org/altair/resource/a1ul8> .
+
+<http://www.disit.org/altair/resource/a1ul7>
+        a       <http://www.disit.org/saref4bldg-ext/PhysicalObject> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/to>
+                <http://www.disit.org/altair/resource/a1ul4> .
+
+<http://www.disit.org/saref4bldg-ext/to>
+        a           owl:ObjectProperty ;
+        rdfs:label  "to" .
+
+<http://www.disit.org/altair/resource/Flusso_460>
+        a       <http://www.disit.org/saref4bldg-ext/Flow> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/endIn>
+                <http://www.disit.org/altair/resource/a1ul3> ;
+        <http://www.disit.org/saref4bldg-ext/startIn>
+                <http://www.disit.org/altair/resource/p954> .
+
+<http://www.disit.org/saref4bldg-ext/ChemicalCompound>
+        a                owl:Class ;
+        rdfs:comment     "Any sort of Chemical Compounds that flow between Physical Object," ;
+        rdfs:label       "ChemicalCompound" ;
+        rdfs:subClassOf  <http://www.disit.org/saref4bldg-ext/Flow> .
+
+<http://www.disit.org/altair/resource/Flusso_473>
+        a       <http://www.disit.org/saref4bldg-ext/Flow> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/endIn>
+                <http://www.disit.org/altair/resource/p954> ;
+        <http://www.disit.org/saref4bldg-ext/startIn>
+                <http://www.disit.org/altair/resource/a1ul4> .
+
+<http://www.disit.org/saref4bldg-ext/Water>
+        a                owl:Class ;
+        rdfs:comment     "Water Flow from and to a Physical Object." ;
+        rdfs:label       "Water" ;
+        rdfs:subClassOf  <http://www.disit.org/saref4bldg-ext/Flow> ;
+        rdfs:subClassOf  [ a                  owl:Restriction ;
+                           owl:allValuesFrom  <https://saref.etsi.org/core/Measurement> ;
+                           owl:onProperty     <https://saref.etsi.org/saref4bldg/waterPressureMin>
+                         ] ;
+        rdfs:subClassOf  [ a                  owl:Restriction ;
+                           owl:allValuesFrom  <https://saref.etsi.org/core/Measurement> ;
+                           owl:onProperty     <https://saref.etsi.org/saref4bldg/waterPressureMax>
+                         ] .
+
+<http://www.disit.org/altair/resource/a1ul1>
+        a       <http://www.disit.org/saref4bldg-ext/PhysicalObject> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/to>
+                <http://www.disit.org/altair/resource/s-954a> .
+
+<http://www.disit.org/altair/resource/Flusso_458>
+        a       <http://www.disit.org/saref4bldg-ext/Flow> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/endIn>
+                <http://www.disit.org/altair/resource/a1ul2> ;
+        <http://www.disit.org/saref4bldg-ext/startIn>
+                <http://www.disit.org/altair/resource/a1ul3> .
+
+<https://saref.etsi.org/core/Measurement>
+        a       owl:Class .
+
+<http://www.disit.org/altair/resource/rampa2>
+        a       <http://www.disit.org/saref4bldg-ext/PhysicalObject> , owl:NamedIndividual .
+
+<http://www.disit.org/saref4bldg-ext/canMeasureIn>
+        a             owl:ObjectProperty ;
+        rdfs:comment  "A relation between a sensor and the unit of measurement in which the sensor measurement is expressed." ;
+        rdfs:label    "canMeasureIn" .
+
+<http://www.disit.org/altair/resource/Flusso_480>
+        a       <http://www.disit.org/saref4bldg-ext/Flow> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/endIn>
+                <http://www.disit.org/altair/resource/a1ul11> ;
+        <http://www.disit.org/saref4bldg-ext/startIn>
+                <http://www.disit.org/altair/resource/a1ul9> .
+
+<http://www.disit.org/altair/resource/Flusso_452>
+        a       <http://www.disit.org/saref4bldg-ext/Flow> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/endIn>
+                <http://www.disit.org/altair/resource/rampa1> ;
+        <http://www.disit.org/saref4bldg-ext/startIn>
+                <http://www.disit.org/altair/resource/a1ul3> .
+
+<http://www.disit.org/altair/resource/s-954a>
+        a       <http://www.disit.org/saref4bldg-ext/Tank> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/to>
+                <http://www.disit.org/altair/resource/a1ul7> .
+
+<http://www.disit.org/altair/resource/Flusso_465>
+        a       <http://www.disit.org/saref4bldg-ext/Flow> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/endIn>
+                <http://www.disit.org/altair/resource/s-954b> ;
+        <http://www.disit.org/saref4bldg-ext/startIn>
+                <http://www.disit.org/altair/resource/ferrosostart> .
+
+<https://saref.etsi.org/saref4bldg/BuildingSpace>
+        a       owl:Class .
+
+<http://www.disit.org/altair/resource/Flusso_478>
+        a       <http://www.disit.org/saref4bldg-ext/Flow> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/endIn>
+                <http://www.disit.org/altair/resource/a1ul11> ;
+        <http://www.disit.org/saref4bldg-ext/startIn>
+                <http://www.disit.org/altair/resource/a1ul10> .
+
+<http://www.disit.org/altair/resource/a1ul6>
+        a       <http://www.disit.org/saref4bldg-ext/PhysicalObject> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/to>
+                <http://www.disit.org/altair/resource/a1ul4> , <http://www.disit.org/altair/resource/s-954b> .
+
+<http://www.disit.org/altair/resource/li904e>
+        a       <http://www.disit.org/saref4bldg-ext/Sensor> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/canMeasureIn>
+                <http://www.disit.org/altair/resource/percentage> ;
+        <http://www.disit.org/saref4bldg-ext/isContainedIn>
+                <http://www.disit.org/altair/resource/s-904e> .
+
+<http://www.disit.org/altair/resource/a1ul14>
+        a       <http://www.disit.org/saref4bldg-ext/PhysicalObject> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/to>
+                <http://www.disit.org/altair/resource/s-904d> .
+
+<https://saref.etsi.org/saref4bldg/Valve>
+        a       owl:Class .
+
+<http://www.disit.org/altair/resource/Flusso_472>
+        a       <http://www.disit.org/saref4bldg-ext/Flow> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/endIn>
+                <http://www.disit.org/altair/resource/a1ul8> ;
+        <http://www.disit.org/saref4bldg-ext/startIn>
+                <http://www.disit.org/altair/resource/s-904d> .
+
+<http://www.disit.org/altair/resource/fi904b>
+        a       <http://www.disit.org/saref4bldg-ext/Sensor> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/canMeasureIn>
+                <http://www.disit.org/altair/resource/m3-h> ;
+        <http://www.disit.org/saref4bldg-ext/isContainedIn>
+                <http://www.disit.org/altair/resource/p904b> .
+
+<http://www.disit.org/altair/resource/Flusso_457>
+        a       <http://www.disit.org/saref4bldg-ext/Flow> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/endIn>
+                <http://www.disit.org/altair/resource/s-904d> ;
+        <http://www.disit.org/saref4bldg-ext/startIn>
+                <http://www.disit.org/altair/resource/a1ul14> .
+
+<http://www.disit.org/saref4bldg-ext/Energy>
+        a                owl:Class ;
+        rdfs:comment     "Any sort of Energy used or producted by a Phisycal Object." ;
+        rdfs:label       "Energy" ;
+        rdfs:subClassOf  <http://www.disit.org/saref4bldg-ext/Flow> .
+
+<https://saref.etsi.org/saref4bldg/waterPressureMax>
+        a       owl:ObjectProperty .
+
+<http://www.disit.org/altair/resource/rampa1>
+        a       <http://www.disit.org/saref4bldg-ext/PhysicalObject> , owl:NamedIndividual .
+
+<http://www.disit.org/altair/resource/fi954>
+        a       <http://www.disit.org/saref4bldg-ext/Sensor> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/canMeasureIn>
+                <http://www.disit.org/altair/resource/m3-h> ;
+        <http://www.disit.org/saref4bldg-ext/isContainedIn>
+                <http://www.disit.org/altair/resource/a1ul3> .
+
+<http://www.disit.org/altair/resource/Flusso_464>
+        a       <http://www.disit.org/saref4bldg-ext/Flow> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/endIn>
+                <http://www.disit.org/altair/resource/s-954b> ;
+        <http://www.disit.org/saref4bldg-ext/startIn>
+                <http://www.disit.org/altair/resource/a1ul2> .
+
+<https://saref.etsi.org/saref4bldg/Reactor>
+        a       owl:Class .
+
+<http://www.disit.org/altair/resource/Flusso_477>
+        a       <http://www.disit.org/saref4bldg-ext/Flow> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/endIn>
+                <http://www.disit.org/altair/resource/a1ul6> ;
+        <http://www.disit.org/saref4bldg-ext/startIn>
+                <http://www.disit.org/altair/resource/s-954b> .
+
+<http://www.disit.org/altair/resource/a1ul5>
+        a       <http://www.disit.org/saref4bldg-ext/PhysicalObject> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/to>
+                <http://www.disit.org/altair/resource/a1ul4> , <http://www.disit.org/altair/resource/s-954b> ;
+        <http://www.disit.org/saref4bldg-ext/to_cloro>
+                <http://www.disit.org/altair/resource/a1ul4> .
+
+<http://www.disit.org/altair/resource/li904d>
+        a       <http://www.disit.org/saref4bldg-ext/Sensor> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/canMeasureIn>
+                <http://www.disit.org/altair/resource/percentage> ;
+        <http://www.disit.org/saref4bldg-ext/isContainedIn>
+                <http://www.disit.org/altair/resource/s-904d> .
+
+<http://www.disit.org/altair/resource/a1ul13>
+        a       <http://www.disit.org/saref4bldg-ext/PhysicalObject> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/to>
+                <http://www.disit.org/altair/resource/s-904e> .
+
+<http://www.disit.org/saref4bldg-ext/to_ferroso>
+        a       owl:ObjectProperty .
+
+<http://www.disit.org/altair/resource/Flusso_471>
+        a       <http://www.disit.org/saref4bldg-ext/Flow> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/endIn>
+                <http://www.disit.org/altair/resource/p904b> ;
+        <http://www.disit.org/saref4bldg-ext/startIn>
+                <http://www.disit.org/altair/resource/a1ul11> .
+
+<https://saref.etsi.org/saref4bldg/waterPressureMin>
+        a       owl:ObjectProperty .
+
+<https://saref.etsi.org/saref4bldg/contains>
+        a       owl:ObjectProperty .
+
+<http://www.disit.org/altair/resource/Flusso_484>
+        a       <http://www.disit.org/saref4bldg-ext/Flow> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/endIn>
+                <http://www.disit.org/altair/resource/a1ul4> ;
+        <http://www.disit.org/saref4bldg-ext/startIn>
+                <http://www.disit.org/altair/resource/a1ul5> .
+
+<http://www.disit.org/altair/resource/Flusso_456>
+        a       <http://www.disit.org/saref4bldg-ext/Flow> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/endIn>
+                <http://www.disit.org/altair/resource/s-904d> ;
+        <http://www.disit.org/saref4bldg-ext/startIn>
+                <http://www.disit.org/altair/resource/ferricostart> .
+
+<http://www.disit.org/saref4bldg-ext/UnitOfMeasure>
+        a           owl:Class ;
+        rdfs:label  "UnitOfMeasure" .
+
+<http://www.disit.org/altair/resource/Flusso_469>
+        a       <http://www.disit.org/saref4bldg-ext/Flow> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/endIn>
+                <http://www.disit.org/altair/resource/s-954a> ;
+        <http://www.disit.org/saref4bldg-ext/startIn>
+                <http://www.disit.org/altair/resource/a1ul1> .
+
+<http://www.disit.org/saref4bldg-ext/color>
+        a             owl:DatatypeProperty ;
+        rdfs:comment  "Color of a PhysicalObject or Flow's illustrative color." ;
+        rdfs:label    "color" .
+
+<http://www.disit.org/saref4bldg-ext/PhysicalObject>
+        a           owl:Class ;
+        rdfs:label  "PhysicalObject" .
+
+<http://www.disit.org/altair/resource/Flusso_463>
+        a       <http://www.disit.org/saref4bldg-ext/Flow> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/endIn>
+                <http://www.disit.org/altair/resource/s-904e> ;
+        <http://www.disit.org/saref4bldg-ext/startIn>
+                <http://www.disit.org/altair/resource/a1ul13> .
+
+<http://www.disit.org/altair/resource/li954b>
+        a       <http://www.disit.org/saref4bldg-ext/Sensor> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/canMeasureIn>
+                <http://www.disit.org/altair/resource/percentage> ;
+        <http://www.disit.org/saref4bldg-ext/isContainedIn>
+                <http://www.disit.org/altair/resource/s-954b> .
+
+<http://www.disit.org/altair/resource/Flusso_476>
+        a       <http://www.disit.org/saref4bldg-ext/Flow> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/endIn>
+                <http://www.disit.org/altair/resource/a1ul9> ;
+        <http://www.disit.org/saref4bldg-ext/startIn>
+                <http://www.disit.org/altair/resource/a1ul8> .
+
+<http://www.disit.org/altair/resource/a1ul4>
+        a       <http://www.disit.org/saref4bldg-ext/PhysicalObject> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/to>
+                <http://www.disit.org/altair/resource/p954> .
+
+<http://www.disit.org/saref4bldg-ext/Tank>
+        a                owl:Class ;
+        rdfs:label       "Reactor" , "Tank" ;
+        rdfs:subClassOf  <https://saref.etsi.org/saref4bldg/Reactor> , <https://saref.etsi.org/saref4bldg/PhysicalObject> .
+
+<http://www.disit.org/altair/resource/p954>
+        a       <http://www.disit.org/saref4bldg-ext/Pump> , owl:NamedIndividual ;
+        <http://www.disit.org/saref4bldg-ext/to>
+                <http://www.disit.org/altair/resource/a1ul3> .
